@@ -56,7 +56,7 @@ const structuredData = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon-paper.svg" /> <!-- | "/favicon.svg" | "/favicon-cmyk.svg" | "/favicon-notd.svg" | -->
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
@@ -129,6 +129,11 @@ const structuredData = {
     }
 
     <ClientRouter />
+
+    <!-- Import Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&family=Rock+Salt&display=swap" rel="stylesheet">
 
     <script is:inline src="/toggle-theme.js"></script>
   </head>

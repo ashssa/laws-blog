@@ -31,9 +31,9 @@ const months = [
 ];
 ---
 
-<Layout title={`Archives | ${SITE.title}`}>
+<Layout title={`歸檔文章 | ${SITE.title}`}>
   <Header />
-  <Main pageTitle="Archives" pageDesc="All the articles I've archived.">
+  <Main pageTitle="歸檔文章" pageDesc="找找看有沒有需要的吧！">
     {
       Object.entries(
         getPostsByGroupCondition(posts, post =>

@@ -29,7 +29,7 @@ const isActive = (path: string) => {
     href="#main-content"
     class="absolute start-16 -top-full z-50 bg-background px-3 py-2 text-accent backdrop-blur-lg transition-all focus:top-4"
   >
-    Skip to content
+    回目錄
   </a>
   <div
     id="nav-container"
@@ -43,7 +43,7 @@ const isActive = (path: string) => {
         href="/"
         class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
       >
-        {SITE.title}
+        <span class="font-ashs text-accent">{SITE.ashsTitleSlogan} </span>{SITE.ashsTitleFull} <!-- | {SITE.title} -->
       </a>
       <nav
         id="nav-menu"

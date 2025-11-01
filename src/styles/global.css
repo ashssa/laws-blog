@@ -38,11 +38,13 @@ html[data-theme="dark"] {
     @apply overflow-y-scroll scroll-smooth;
   }
   body {
-    @apply flex min-h-svh flex-col bg-background font-mono text-foreground selection:bg-accent/75 selection:text-background;
+    @apply flex min-h-svh flex-col bg-background /*font-mono*/ text-foreground selection:bg-accent/75 selection:text-background;
+    font-family: "Chiron Hei HK", sans-serif; /* | "Chiron GoRound TC" */
   }
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
+    font-family: "Chiron GoRound TC", sans-serif; /* | "Chiron Hei HK" */
   }
   button:not(:disabled),
   [role="button"]:not(:disabled) {

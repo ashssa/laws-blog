@@ -1,6 +1,17 @@
 @plugin '@tailwindcss/typography';
 
 @layer base {
+  /* ===== ASHS SA Law Custom Typography Styles ===== */
+  p {
+    @apply font-light md:font-normal;
+  }
+  .font-ashs {
+    font-family: "Rock Salt", cursive;
+  }
+  .font-ashs-round {
+    font-family: "Chiron GoRound TC", sans-serif;
+  }
+
   /* ===== Override default Tailwind Typography styles ===== */
   .app-prose {
     @apply prose;
