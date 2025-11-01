@@ -40,7 +40,7 @@ const isActive = (path: string) => {
       class="relative flex w-full items-baseline justify-between bg-background p-4 sm:items-center sm:py-6"
     >
       <a
-        href="/"
+        href="/laws-blog"
         class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
       >
         <span class="font-ashs text-accent">{SITE.ashsTitleSlogan} </span>{SITE.ashsTitleFull} <!-- | {SITE.title} -->
@@ -69,17 +69,17 @@ const isActive = (path: string) => {
           ]}
         >
           <li class="col-span-2">
-            <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
+            <a href="/laws-blog/posts" class:list={{ "active-nav": isActive("/posts") }}>
               所有文章
             </a>
           </li>
           <li class="col-span-2">
-            <a href="/tags" class:list={{ "active-nav": isActive("/tags") }}>
+            <a href="/laws-blog/tags" class:list={{ "active-nav": isActive("/tags") }}>
               標籤
             </a>
           </li>
           <li class="col-span-2">
-            <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
+            <a href="/laws-blog/about" class:list={{ "active-nav": isActive("/about") }}>
               關於本站
             </a>
           </li>
@@ -87,7 +87,7 @@ const isActive = (path: string) => {
             SITE.showArchives && (
               <li class="col-span-2">
                 <LinkButton
-                  href="/archives"
+                  href="/laws-blog/archives"
                   class:list={[
                     "focus-outline flex justify-center p-3 sm:p-1",
                     {
@@ -105,7 +105,7 @@ const isActive = (path: string) => {
           }
           <li class="col-span-1 flex items-center justify-center">
             <LinkButton
-              href="/search"
+              href="/laws-blog/search"
               class:list={[
                 "focus-outline flex p-3 sm:p-1",
                 { "[&>svg]:stroke-accent": isActive("/search") },
