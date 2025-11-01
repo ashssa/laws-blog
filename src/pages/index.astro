@@ -25,7 +25,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <main id="main-content" data-layout="index">
     <section id="hero" class="pt-8 pb-6">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        Make A Circle!
       </h1>
       <a
         target="_blank"
@@ -43,25 +43,31 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        高師大附中學生會自治法規共用系統：法規、設計理念、部落格
       </p>
       <p class="mt-2">
-        Read the blog posts or check
+        還沒看過看過網站本體嗎？
+        <LinkButton 
+          class="underline decoration-dashed underline-offset-4 hover:text-accent"
+          href="https://ashssa.github.io/laws/" 
+        >
+        快去看看！
+      </LinkButton> 裡面統整了本會自治法規，至於設計理念與未來規劃，你就可以在這裡找到了。
+      </p>
+      <p class="mt-2">
+        或是，你也可以看看
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="https://sites.google.com/stu.nknush.kh.edu.tw/ashssa/mac"
         >
-          README
-        </LinkButton> for more info.
+          我們的官網
+        </LinkButton> ，認識更多關於高師大附中學生會的資訊！
       </p>
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
           <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
+            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">在更多地方找到我們：</div>
             <Socials />
           </div>
         )
@@ -74,7 +80,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       featuredPosts.length > 0 && (
         <>
           <section id="featured" class="pt-12 pb-6">
-            <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+            <h2 class="text-2xl font-semibold tracking-wide">精選文章</h2>
             <ul>
               {featuredPosts.map(data => (
                 <Card variant="h3" {...data} />
@@ -89,7 +95,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">近期文章</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -102,7 +108,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
-        All Posts
+        所有文章
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>
     </div>
