@@ -1,6 +1,5 @@
 export const SITE = {
   website: "https://ashssa-law-blog.netlify.app", // replace this with your deployed domain
-  sitePath: "/laws-blog/", // replace this with your deployed subpath, or '/' if deploying to root domain
   author: "高師大附中學生會",
   profile: "https://www.instagram.com/ashs_sa/",
   desc: "高師大附中學生會自治法規共用系統：設計理念、使用說明、資訊與部落格",
