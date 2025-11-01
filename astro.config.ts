@@ -13,8 +13,7 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ashssa.github.io/laws-blog/",
-  base: "/laws-blog",
+  site: SITE.website,
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
