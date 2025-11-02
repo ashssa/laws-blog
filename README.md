@@ -1,10 +1,10 @@
 # ASHS SA Law Blog
 
-![SaLaws](https://ashssa.github.io/laws/img/Preview%203.png)
+![SaLaws](/src/assets/images/SALaw-1.png)
 
 **高師大附中學生會自治法規共用系統**：設計理念、使用說明、資訊與部落格
 
-> [! NOTE]
+> [!NOTE]
 > 高師大附中學生會自治法規共用系統**本體**，請參考 **[這個REPO](https://github.com/ashssa/laws)**。
 
 ## 這裡會有什麼？
@@ -16,13 +16,15 @@
  - 網站更新資訊與目標
  - 常見的部落格會有的東西
 
- ~~但主要更新者是學測生，想看這些內容的話可能需要再等等~~
+ 但主要更新者是學測生，東西會一點一點慢慢上，詳細內容可能需要再等等！
+
 
 ---
 
+
 以下資訊來自原REPO
 
-# AstroPaper 📄
+## AstroPaper 📄
 
 ![AstroPaper](public/astropaper-og.jpg)
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1356898632249991861)
