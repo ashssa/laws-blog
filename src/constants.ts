@@ -1,6 +1,9 @@
 import type { Props } from "astro";
+import IconSALaw from "@/assets/icons/IconSALaw.svg";
+import IconLink from "@/assets/icons/IconLink.svg";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
+import IconInstagram from "@/assets/icons/IconInstagram.svg";
 import IconBrandX from "@/assets/icons/IconBrandX.svg";
 import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
 import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
@@ -18,10 +21,22 @@ interface Social {
 
 export const SOCIALS: Social[] = [
   {
+    name: "ASHS SA Law",
+    href: "https://ashssa.github.io/laws/",
+    linkTitle: `高師大附中自治法規共用系統`,
+    icon: IconSALaw,
+  },
+  {
     name: "GitHub",
     href: "https://github.com/ashssa/laws-blog",
     linkTitle: `${SITE.title} on GitHub`,
     icon: IconGitHub,
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/ashs_sa/",
+    linkTitle: `高師大附中學生會Instagram`,
+    icon: IconInstagram,
   },
   // {
   //   name: "X",
@@ -36,9 +51,15 @@ export const SOCIALS: Social[] = [
   //   icon: IconLinkedin,
   // },
   {
+    name: "Website Link",
+    href: "https://sites.google.com/stu.nknush.kh.edu.tw/ashssa/mac",
+    linkTitle: `高師大附中學生會官方網站`,
+    icon: IconLink,
+  },
+  {
     name: "Mail",
     href: "mailto:ashsmac+lawblog@gmail.com?subject=法規部落格｜聯絡我們&body=",
-    linkTitle: `傳送Email到 ${SITE.title}`,
+    linkTitle: `傳送Email到高師大附中學生會`,
     icon: IconMail,
   },
 ] as const;
