@@ -7,6 +7,8 @@
   }
   .font-ashs {
     font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-smooth: auto;
   }
   .font-ashs-round {
     font-family: "Chiron GoRound TC", sans-serif;
