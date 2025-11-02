@@ -73,3 +73,18 @@ html[data-theme="dark"] {
 .tags-div span {
   @apply -mr-2
 }
+
+/* 重設引用文字樣式 */
+blockquote ::before{
+  content: "「"; 
+  margin-right: 0.3em;
+  }
+blockquote ::after {
+  content: "」";
+  margin-left: 0.3em;
+}
+blockquote p{
+  @apply ml-4 -indent-4;
+}
+
+
