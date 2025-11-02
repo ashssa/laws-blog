@@ -57,7 +57,11 @@ metaData:
   order: 5
 ---
 
-# 您的文章內容從這裡開始
+> Tip! You can get ISO 8601 datetime by running `new Date().toISOString()` in the console. Make sure you remove quotes though.
+
+## Table of contents
+
+## 您的文章內容從這裡開始
 
 使用 Markdown 語法撰寫文章內文。
 
