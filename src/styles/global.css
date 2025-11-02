@@ -75,16 +75,19 @@ html[data-theme="dark"] {
 }
 
 /* 重設引用文字樣式 */
-blockquote ::before{
+blockquote > p::before{
   content: "「"; 
   margin-right: 0.3em;
-  }
-blockquote ::after {
+  /* display: inline-block; */
+}
+blockquote > p::after {
   content: "」";
   margin-left: 0.3em;
+  /* display: inline-block; */
 }
 blockquote p{
-  @apply ml-4 -indent-4;
+  @apply ml-4 -indent-4 ;
+  display: inline-block;
 }
 
 
