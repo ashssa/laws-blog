@@ -69,3 +69,7 @@ html[data-theme="dark"] {
 :target {
   scroll-margin-block: 1rem;
 }
+/* Card.astro */
+.tags-div span {
+  @apply -mr-2
+}

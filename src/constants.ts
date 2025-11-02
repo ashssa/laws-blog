@@ -37,8 +37,8 @@ export const SOCIALS: Social[] = [
   // },
   {
     name: "Mail",
-    href: "mailto:ashsmac+salaw@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
+    href: "mailto:ashsmac+lawblog@gmail.com?subject=法規部落格｜聯絡我們&body=",
+    linkTitle: `傳送Email到 ${SITE.title}`,
     icon: IconMail,
   },
 ] as const;
@@ -76,7 +76,7 @@ export const SHARE_LINKS: Social[] = [
   },
   {
     name: "Mail",
-    href: "mailto:?subject=See%20this%20post&body=",
+    href: "mailto:?subject=好文分享：高師大附中學生會自治法規部落格&body=",
     linkTitle: `Share this post via email`,
     icon: IconMail,
   },
