@@ -1,22 +1,23 @@
 ---
-title: SA Law的未來展望 a.k.a. 待辦清單系列文章
+title: SA Law那些意想不到的小功能
 author: 學生議員潘祈瑋
-pubDatetime: 2025-11-02T11:02:41Z
+pubDatetime: 2025-11-02T3:51:54Z
 modDatetime:
-slug: to-do-list
+slug: guide
 featured: false
 draft: false
 tags:
-  - 待辦清單
-  # - 法規系統
+  - 使用說明
+category: Development
 description:
-  【待補充】SA Law的未來展望 a.k.a. 待辦清單系列文章
+  【待補充】SA Law那些意想不到的小功能
 series: 介紹部落格
-order: 20
+order: 30
 ---
 
-> 『如果不拒絕那些不想做的事，就沒有時間與心力去做真正想做的事了。』
-> ── 張曼娟
+[SA-Law]: https://ashssa.github.io/laws/ "高師大附中學生會自治法規共用系統"
+
+> 逛過 [SA Law][SA-Law] 了嗎？網站內有許多小巧思，有沒有發現呢
 
 ## Table of contents
 

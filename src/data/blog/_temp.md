@@ -33,7 +33,7 @@ canonicalURL: https://yourdomain.com/posts/complete-guide-to-astro-frontmatter #
 # ====================================
 # 文章狀態與特殊設定 (Status & Settings)
 # ====================================
-draft: false                   # 如果為 true，則文章在生產環境中不會被建構
+draft: true                   # 如果為 true，則文章在生產環境中不會被建構
 featured: true                 # 是否在首頁或精選區塊顯示
 lang: zh-TW                    # 文章語言
 

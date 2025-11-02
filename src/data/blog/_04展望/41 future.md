@@ -1,7 +1,7 @@
 ---
 title: SA Law計劃：未來展望
 author: 學生議員潘祈瑋
-pubDatetime: 2025-11-02T12:12:26Z
+pubDatetime: 2025-11-02T4:12:26Z
 modDatetime:
 slug: future
 featured: false
