@@ -44,7 +44,7 @@ html[data-theme="dark"] {
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
-    font-family: "Chiron GoRound TC", sans-serif; /* | "Chiron Hei HK" */
+    font-family: var(--font-ashs-round), sans-serif; /* | "Chiron Hei HK" | "Chiron GoRound TC" */
   }
   button:not(:disabled),
   [role="button"]:not(:disabled) {
@@ -86,8 +86,11 @@ blockquote > p::after {
   /* display: inline-block; */
 }
 blockquote p{
-  @apply ml-4 -indent-4 ;
+  @apply ml-4 -indent-4 font-(family-name:--font-ashs-blockquote-serif) md:font-(family-name:--font-ashs-blockquote-cursive) md:font-semibold;
   display: inline-block;
+  /* font-family: "Cactus Classical Serif", serif;
+  font-family: "LXGW WenKai TC", serif; */
+  font-style: normal;
 }
 
 

@@ -2,16 +2,24 @@
 
 @layer base {
   /* ===== ASHS SA Law Custom Typography Styles ===== */
+  :root {
+    --font-ashs-round: "Chiron GoRound TC";
+    --font-ashs-blockquote-serif: "Cactus Classical Serif", serif;
+    --font-ashs-blockquote-cursive: "LXGW WenKai TC", serif;
+  }
+
   p {
     @apply font-light md:font-normal;
   }
+    /* Header Title */
   .font-ashs {
     font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-smooth: auto;
   }
+    /* 忘記用在哪了 */
   .font-ashs-round {
-    font-family: "Chiron GoRound TC", sans-serif;
+    font-family: var(--font-ashs-round), sans-serif;
   }
 
   /* ===== Override default Tailwind Typography styles ===== */
